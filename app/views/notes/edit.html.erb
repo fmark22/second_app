@@ -1,0 +1,8 @@
+<h1>기존 글을 등록해 보아요!</h1>
+  <form action='/notes_update'>
+    <input name='note_id' type='hidden' value=<%= @note.id %>></input>
+    
+    <input name='input_title' type='text' value=<%= @note.title %>></input>
+    <input name='input_contect' type='text' value=<%= @note.content %>></input>
+    <input type='submit'></input>
+  </form>

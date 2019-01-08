@@ -1,0 +1,7 @@
+<h1>새 글을 등록해 보아요!</h1>
+  <form action='/notes' method='POST'>
+    <input type='hidden' name='authenticity_token' value=<%= @token %>></input>
+    <input name='input_title' type='text'></input>
+    <input name='input_contect' type='text'></input>
+    <input type='submit'></input>
+  </form>
